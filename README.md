@@ -4,6 +4,13 @@ A free chess game review site. Paste a chess.com or Lichess game link (or a PGN)
 
 Everything runs in the visitor's browser. There is no server and no game data leaves the device, apart from fetching the game from chess.com or Lichess.
 
+## Features
+
+- Move labels (Brilliant, Great, Best, Excellent, Good, Book, Inaccuracy, Mistake, Miss, Blunder) with coach notes
+- Eval bar with the gain or loss of every move, plus an eval graph you can scrub
+- Accuracy per player and per game phase, key moments, best lines, "retry this move"
+- Autoplay, four board colour themes, and shareable review links (`#g=…` in the address)
+
 ## Put it online with GitHub Pages
 
 1. Create a new public repository on GitHub, for example `chess-review`.
